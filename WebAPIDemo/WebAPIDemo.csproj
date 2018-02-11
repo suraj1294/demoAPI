@@ -273,6 +273,10 @@
     <Compile Include="Migrations\201802111426410_useractivitycropUniqueColumn.Designer.cs">
       <DependentUpon>201802111426410_useractivitycropUniqueColumn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802111851597_useractivitycropUniqueColumn1.cs" />
+    <Compile Include="Migrations\201802111851597_useractivitycropUniqueColumn1.Designer.cs">
+      <DependentUpon>201802111851597_useractivitycropUniqueColumn1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -395,6 +399,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802111426410_useractivitycropUniqueColumn.resx">
       <DependentUpon>201802111426410_useractivitycropUniqueColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802111851597_useractivitycropUniqueColumn1.resx">
+      <DependentUpon>201802111851597_useractivitycropUniqueColumn1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

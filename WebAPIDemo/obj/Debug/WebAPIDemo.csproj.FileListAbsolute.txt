@@ -115,3 +115,4 @@ C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\De
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addUsertypes.resources
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.useractivitycrop.resources
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.useractivitycropUniqueColumn.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.useractivitycropUniqueColumn1.resources

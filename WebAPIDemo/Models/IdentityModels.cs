@@ -32,7 +32,7 @@ namespace WebAPIDemo.Models
         public DbSet<UserCrop> UserCrop { get; set; }
 
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("DefaultConnection1", throwIfV1Schema: false)
         {
         }
        

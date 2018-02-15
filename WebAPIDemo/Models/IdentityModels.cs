@@ -30,9 +30,10 @@ namespace WebAPIDemo.Models
         public DbSet<PersonalProfile> PersonalProfile { get; set; }
         public DbSet<UserActivity> UserActivity { get; set; }
         public DbSet<UserCrop> UserCrop { get; set; }
-
+        public DbSet<Activity> Activity { get; set; }
+        public DbSet<Crop> Crop { get; set; }
         public ApplicationDbContext()
-            : base("DefaultConnection1", throwIfV1Schema: false)
+            : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
        

@@ -234,3 +234,8 @@ D:\ASP MVC\webApi\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.useractivitycropUni
 D:\ASP MVC\webApi\WebAPIDemo\obj\Debug\WebAPIDemo.csproj.GenerateResource.Cache
 D:\ASP MVC\webApi\WebAPIDemo\obj\Debug\WebAPIDemo.dll
 D:\ASP MVC\webApi\WebAPIDemo\obj\Debug\WebAPIDemo.pdb
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.AddActivity.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.AddCrop.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.CropActivityUnique.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addActivities.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addCrops.resources

@@ -277,10 +277,32 @@
     <Compile Include="Migrations\201802111851597_useractivitycropUniqueColumn1.Designer.cs">
       <DependentUpon>201802111851597_useractivitycropUniqueColumn1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802151739107_AddActivity.cs" />
+    <Compile Include="Migrations\201802151739107_AddActivity.Designer.cs">
+      <DependentUpon>201802151739107_AddActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802151744298_AddCrop.cs" />
+    <Compile Include="Migrations\201802151744298_AddCrop.Designer.cs">
+      <DependentUpon>201802151744298_AddCrop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802151755193_CropActivityUnique.cs" />
+    <Compile Include="Migrations\201802151755193_CropActivityUnique.Designer.cs">
+      <DependentUpon>201802151755193_CropActivityUnique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802151854501_addActivities.cs" />
+    <Compile Include="Migrations\201802151854501_addActivities.Designer.cs">
+      <DependentUpon>201802151854501_addActivities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802151905332_addCrops.cs" />
+    <Compile Include="Migrations\201802151905332_addCrops.Designer.cs">
+      <DependentUpon>201802151905332_addCrops.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Crop.cs" />
     <Compile Include="Models\District.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Language.cs" />
@@ -403,6 +425,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802111851597_useractivitycropUniqueColumn1.resx">
       <DependentUpon>201802111851597_useractivitycropUniqueColumn1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802151739107_AddActivity.resx">
+      <DependentUpon>201802151739107_AddActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802151744298_AddCrop.resx">
+      <DependentUpon>201802151744298_AddCrop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802151755193_CropActivityUnique.resx">
+      <DependentUpon>201802151755193_CropActivityUnique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802151854501_addActivities.resx">
+      <DependentUpon>201802151854501_addActivities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802151905332_addCrops.resx">
+      <DependentUpon>201802151905332_addCrops.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

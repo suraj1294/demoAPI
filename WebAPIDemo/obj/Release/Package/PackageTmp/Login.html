@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    
+</head>
+<body>
+    <button id="Login" value="Login">Google Login</button>
+</body>
+
+</html>
+<script src="Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#Login").click(function () {
+            window.location.href = "/api/Account/ExternalLogin?provider=Google&response_type=token&client_id=self&redirect_uri=http%3A%2F%2Flocalhost%3A64991%2FLogin.html&state=h7HJy3O0kZjlSSK9t4Zu2O8fXtYpvPKKd0awvaLkfj41"
+        })
+        getToken();
+    })
+
+    function getToken() {
+        if (location.hash) {
+            if (location.hash.split("#")) {
+                var accessTokenString = location.hash.split("#")[1];
+
+                var accessToken = accessTokenString.split("access_token=")[1].split('&')[0]
+                
+                var HostUrl = document.referrer
+                if (HostUrl)
+                    window.location.href = HostUrl + "#&access_token=" + accessToken;
+            //    isUserRegistered(accessToken);
+             
+            }
+        }
+    }
+    function isUserRegistered(accessToken) {
+        if (accessToken) {
+
+            $.ajax({
+                url: '/api/Account/UserInfo',
+                method: "GET",
+                headers: {
+                    "Authorization": 'Bearer ' + accessToken,
+                    "Content-Type": "Application/json"
+                },
+                success: function (response) {
+                    if (response.HasRegistered) {
+                        debugger;
+                        localStorage.setItem("accessToken", accessToken);
+                        localStorage.setItem("userName", response.Email);
+                        var accessTokenString = location.hash.split("#")[1];
+                        var HostUrl = document.referrer
+                        if (HostUrl)
+                        window.location.href = HostUrl+ "#&access_token=" + accessToken;
+                    } else {
+                        signupExternal(accessToken);
+                        
+                    }
+                }
+
+            })
+
+
+        }
+    }
+
+    function signupExternal(accessToken) {
+        $.ajax({
+            url: '/api/Account/RegisterExternal',
+            method: "POST",
+            headers: {
+                "Authorization": 'Bearer ' + accessToken,
+                "Content-Type": "Application/json"
+            },
+            success: function (response) {
+                window.location.href = "/api/Account/ExternalLogin?provider=Google&response_type=token&client_id=self&redirect_uri=http%3A%2F%2Flocalhost%3A64991%2FLogin.html&state=h7HJy3O0kZjlSSK9t4Zu2O8fXtYpvPKKd0awvaLkfj41"
+            }
+
+        })
+    }
+</script>

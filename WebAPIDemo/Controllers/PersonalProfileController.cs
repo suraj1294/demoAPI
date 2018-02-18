@@ -29,9 +29,38 @@ namespace WebAPIDemo.Controllers
             {
                 return BadRequest(ModelState);
             }
+            var userProfile = _context.PersonalProfile.SingleOrDefault(a => a.ApplicationUserId == personalProfile.UserId);
+            if (userProfile == null)
+            {
+                return NotFound();
+            }
 
+            try
+            {
+                userProfile.UserType = personalProfile.UserType;
+                userProfile.AdharNumber = personalProfile.AdharNumber;
+                userProfile.Country = personalProfile.Country;
+                userProfile.CropArea = personalProfile.CropArea;
+                userProfile.District = personalProfile.District;
+                userProfile.DOB = personalProfile.DOB;
+                userProfile.FarmerName = personalProfile.FarmerName;
+                userProfile.Gender = personalProfile.Gender;
+                userProfile.Language = personalProfile.Language;
+                userProfile.MobileNumber = personalProfile.MobileNumber;
+                userProfile.PANNumber = personalProfile.PANNumber;
+                userProfile.State = personalProfile.State;
+                userProfile.Tehsil = personalProfile.Tehsil;
+                userProfile.UserPhoto = personalProfile.UserPhoto;
+                userProfile.Village = personalProfile.Village;
+                _context.PersonalProfile.Add(userProfile);
+                _context.SaveChanges();
+                return Ok("Record Updated!");
 
-            return Ok();
+            }catch(Exception ex)
+            {
+                return BadRequest(ex.InnerException.InnerException.Message);
+            }
+            return Ok("Personal Profile Updated!");
         }
 
         public PersonalProfile Get(string key)

@@ -317,6 +317,8 @@
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModel\PersonalProfileUpdate.cs" />
+    <Compile Include="ViewModel\UserActivityAdd.cs" />
+    <Compile Include="ViewModel\UserCropAdd.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />

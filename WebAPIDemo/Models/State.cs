@@ -9,10 +9,13 @@ namespace WebAPIDemo.Models
 {
     public class State
     {
-        [Key, Column(Order = 0)]
+        
         public int Id  { get; set; }
+        [Required]
         public string Name { get; set; }
-        [Key, Column(Order = 1)]
+        [Required]
+        public int CountryId { get; set; }
+
         public Country Country { get; set; }
     }
 }

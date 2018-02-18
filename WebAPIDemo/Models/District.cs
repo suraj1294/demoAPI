@@ -9,10 +9,12 @@ namespace WebAPIDemo.Models
 {
     public class District
     {
-        [Key, Column(Order = 0)]
+        
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
-        [Key, Column(Order = 1)]
+        [Required]
+        public int StateId { get; set; }
         public State State { get; set; }
     }
 }

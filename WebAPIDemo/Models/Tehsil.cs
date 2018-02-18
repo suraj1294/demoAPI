@@ -8,11 +8,12 @@ using System.Web;
 namespace WebAPIDemo.Models
 {
     public class Tehsil
-    {
-        [Key, Column(Order = 0)]
+    {        
         public int Id { get; set; }
-        public String  Name { get; set; }
-        [Key, Column(Order = 1)]
+        [Required]
+        public string Name { get; set; }
+        [Required]
+        public int DistrictId { get; set; }
         public District District { get; set; }
     }
 }

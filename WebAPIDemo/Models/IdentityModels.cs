@@ -22,9 +22,9 @@ namespace WebAPIDemo.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Country> Country { get; set; }
-        public DbSet<District> District { get; set; }
-        public DbSet<State> State { get; set; }
-        public DbSet<Tehsil> Tehsil { get; set; }
+       // public DbSet<State> State { get; set; }
+        //public DbSet<District> District { get; set; }
+        //public DbSet<Tehsil> Tehsil { get; set; }
         public DbSet<User> User { get; set; }
         public DbSet<Language> Language { get; set; }
         public DbSet<PersonalProfile> PersonalProfile { get; set; }

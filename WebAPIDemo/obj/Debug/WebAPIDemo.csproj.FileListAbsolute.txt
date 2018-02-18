@@ -239,3 +239,5 @@ C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\De
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.CropActivityUnique.resources
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addActivities.resources
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addCrops.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.countryMasterUpdate.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.countryIndexUpdate.resources

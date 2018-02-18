@@ -241,3 +241,14 @@ C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\De
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addCrops.resources
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.countryMasterUpdate.resources
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.countryIndexUpdate.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.countryNewStructure.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.dropForeignKeyState.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.dropForeignKeyState1.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addForeignKeyState.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.removeForeignKeyState.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addNewForeignKeyState.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addNewForeignKeyState1.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addNewForeignKeyState2.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addcCountryIndex.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addcCountryIndexRequired.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addAllContryMasters.resources

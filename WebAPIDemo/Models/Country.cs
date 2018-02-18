@@ -9,12 +9,11 @@ namespace WebAPIDemo.Models
 {
     public class Country
     {
-        [Key]
-        [Column(Order =0)]
+            
         public int Id { get; set; }
-        [Required] 
-        [Key]
-        [Column(Order =1)]
+        [Required]
+        [StringLength(450)]
+        [Index(IsUnique = true)]
         public string Name { get; set; }
     }
 }

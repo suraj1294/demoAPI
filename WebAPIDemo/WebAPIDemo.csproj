@@ -306,6 +306,50 @@
     <Compile Include="Migrations\201802181641076_countryIndexUpdate.Designer.cs">
       <DependentUpon>201802181641076_countryIndexUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802181701507_countryNewStructure.cs" />
+    <Compile Include="Migrations\201802181701507_countryNewStructure.Designer.cs">
+      <DependentUpon>201802181701507_countryNewStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181711401_dropForeignKeyState.cs" />
+    <Compile Include="Migrations\201802181711401_dropForeignKeyState.Designer.cs">
+      <DependentUpon>201802181711401_dropForeignKeyState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181718018_dropForeignKeyState1.cs" />
+    <Compile Include="Migrations\201802181718018_dropForeignKeyState1.Designer.cs">
+      <DependentUpon>201802181718018_dropForeignKeyState1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181723505_addForeignKeyState.cs" />
+    <Compile Include="Migrations\201802181723505_addForeignKeyState.Designer.cs">
+      <DependentUpon>201802181723505_addForeignKeyState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181727586_removeForeignKeyState.cs" />
+    <Compile Include="Migrations\201802181727586_removeForeignKeyState.Designer.cs">
+      <DependentUpon>201802181727586_removeForeignKeyState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181730050_addNewForeignKeyState.cs" />
+    <Compile Include="Migrations\201802181730050_addNewForeignKeyState.Designer.cs">
+      <DependentUpon>201802181730050_addNewForeignKeyState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181837388_addNewForeignKeyState1.cs" />
+    <Compile Include="Migrations\201802181837388_addNewForeignKeyState1.Designer.cs">
+      <DependentUpon>201802181837388_addNewForeignKeyState1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181840474_addNewForeignKeyState2.cs" />
+    <Compile Include="Migrations\201802181840474_addNewForeignKeyState2.Designer.cs">
+      <DependentUpon>201802181840474_addNewForeignKeyState2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181846128_addcCountryIndex.cs" />
+    <Compile Include="Migrations\201802181846128_addcCountryIndex.Designer.cs">
+      <DependentUpon>201802181846128_addcCountryIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181853055_addcCountryIndexRequired.cs" />
+    <Compile Include="Migrations\201802181853055_addcCountryIndexRequired.Designer.cs">
+      <DependentUpon>201802181853055_addcCountryIndexRequired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181855448_addAllContryMasters.cs" />
+    <Compile Include="Migrations\201802181855448_addAllContryMasters.Designer.cs">
+      <DependentUpon>201802181855448_addAllContryMasters.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -457,6 +501,39 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802181641076_countryIndexUpdate.resx">
       <DependentUpon>201802181641076_countryIndexUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181701507_countryNewStructure.resx">
+      <DependentUpon>201802181701507_countryNewStructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181711401_dropForeignKeyState.resx">
+      <DependentUpon>201802181711401_dropForeignKeyState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181718018_dropForeignKeyState1.resx">
+      <DependentUpon>201802181718018_dropForeignKeyState1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181723505_addForeignKeyState.resx">
+      <DependentUpon>201802181723505_addForeignKeyState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181727586_removeForeignKeyState.resx">
+      <DependentUpon>201802181727586_removeForeignKeyState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181730050_addNewForeignKeyState.resx">
+      <DependentUpon>201802181730050_addNewForeignKeyState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181837388_addNewForeignKeyState1.resx">
+      <DependentUpon>201802181837388_addNewForeignKeyState1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181840474_addNewForeignKeyState2.resx">
+      <DependentUpon>201802181840474_addNewForeignKeyState2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181846128_addcCountryIndex.resx">
+      <DependentUpon>201802181846128_addcCountryIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181853055_addcCountryIndexRequired.resx">
+      <DependentUpon>201802181853055_addcCountryIndexRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181855448_addAllContryMasters.resx">
+      <DependentUpon>201802181855448_addAllContryMasters.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

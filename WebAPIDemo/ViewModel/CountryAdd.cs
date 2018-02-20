@@ -5,19 +5,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace WebAPIDemo.Models
+namespace WebAPIDemo.ViewModel
 {
-    public class District
+    public class CountryAdd
     {
-        
         public int Id { get; set; }
         [Required]
-        [StringLength(480)]
-        [Index(IsUnique =true,Order = 2)]
+        [StringLength(450)]       
         public string Name { get; set; }
-        [Required]
-        [Index(IsUnique = true, Order = 1)]
-        public int StateId { get; set; }
-        public State State { get; set; }
     }
 }

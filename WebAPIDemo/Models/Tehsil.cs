@@ -11,8 +11,11 @@ namespace WebAPIDemo.Models
     {        
         public int Id { get; set; }
         [Required]
+        [StringLength(480)]
+        [Index(IsUnique = true, Order = 2)]
         public string Name { get; set; }
         [Required]
+        [Index(IsUnique = true, Order = 1)]
         public int DistrictId { get; set; }
         public District District { get; set; }
     }

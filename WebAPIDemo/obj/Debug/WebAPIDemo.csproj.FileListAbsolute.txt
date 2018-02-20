@@ -252,3 +252,6 @@ C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\De
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addcCountryIndex.resources
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addcCountryIndexRequired.resources
 C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addAllContryMasters.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addUniqueIndexState.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.dropIndexCountryIdState.resources
+C:\Users\john\documents\visual studio 2017\Projects\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.Migrations.addUniqueIndexDistTeh.resources

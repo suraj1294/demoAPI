@@ -12,8 +12,11 @@ namespace WebAPIDemo.Models
         
         public int Id  { get; set; }
         [Required]
+        [StringLength(480)]
+        [Index(Order = 2,IsUnique =true)]
         public string Name { get; set; }
-        [Required]
+        [Required]        
+        [Index(Order = 1, IsUnique = true)]
         public int CountryId { get; set; }
 
         public Country Country { get; set; }

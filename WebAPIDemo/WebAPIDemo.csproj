@@ -350,6 +350,18 @@
     <Compile Include="Migrations\201802181855448_addAllContryMasters.Designer.cs">
       <DependentUpon>201802181855448_addAllContryMasters.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802190427087_addUniqueIndexState.cs" />
+    <Compile Include="Migrations\201802190427087_addUniqueIndexState.Designer.cs">
+      <DependentUpon>201802190427087_addUniqueIndexState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802190436036_dropIndexCountryIdState.cs" />
+    <Compile Include="Migrations\201802190436036_dropIndexCountryIdState.Designer.cs">
+      <DependentUpon>201802190436036_dropIndexCountryIdState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802201726568_addUniqueIndexDistTeh.cs" />
+    <Compile Include="Migrations\201802201726568_addUniqueIndexDistTeh.Designer.cs">
+      <DependentUpon>201802201726568_addUniqueIndexDistTeh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -534,6 +546,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802181855448_addAllContryMasters.resx">
       <DependentUpon>201802181855448_addAllContryMasters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802190427087_addUniqueIndexState.resx">
+      <DependentUpon>201802190427087_addUniqueIndexState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802190436036_dropIndexCountryIdState.resx">
+      <DependentUpon>201802190436036_dropIndexCountryIdState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802201726568_addUniqueIndexDistTeh.resx">
+      <DependentUpon>201802201726568_addUniqueIndexDistTeh.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
